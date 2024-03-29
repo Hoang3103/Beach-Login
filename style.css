@@ -1,0 +1,248 @@
+body {
+    background-image: url('background.svg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    margin-top: 6%;
+    /* border: 2px solid rgba(12, 138, 255, 0.87); */
+    background-color: rgba(215, 246, 255, 0.788);
+    box-shadow: 7px 7px 20px 3px rgba(102, 102, 102, 0.651);  
+    width: 65vh;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+    backdrop-filter: blur(3px);
+}
+
+.circle{
+    margin-top: 5%;
+    border: 2px solid rgba(164, 229, 255, 0.603);
+    overflow: hidden;
+    width: 17.5vh;
+    height: 100%;
+    border-radius: 50%;
+    justify-content: center;
+    background-size: cover;
+    background-image: url("./logo.webp");
+    box-shadow: 0 0 50px 1px#76ddff;
+}
+.item-1{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.3rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: Montserrat;
+}
+.item{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.3rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: Montserrat;
+}
+.item span{
+    filter: drop-shadow(10px 10px 20px rgb(54, 64, 94));
+}
+ input {
+    margin-left: 0px;
+    width: 70%;
+    height: 60%;
+    background-color: rgba(255, 222, 173, 0) !important;
+    font-size: 1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: rgb(0, 0, 0);
+    
+}
+::placeholder {
+    color: rgba(114, 114, 114, 0.582); /* Màu chữ bạn muốn sử dụng */
+}
+
+input:focus {
+    outline: none;
+    
+}
+i{
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: -25px;
+    color: rgba(49, 52, 61, 0.973);
+}
+i:hover{
+    color: rgb(37, 81, 131);
+}
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    height: 70%;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    /* moz-transition: all .4s ease-in-out; */
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .0.3s ease-in-out;
+    transition: all .2s ease-in-out;
+    /* transition: color 1s ease-in-out; */
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  button:active{
+    color: rgba(0, 0, 0, 0.904);
+    /* transition: color 1s ease-in-out; */
+  }
+  .bn632-hover.bn26 {
+    background-image: linear-gradient(
+      to right,
+      #25aae1,
+      #4481eb,
+      #04befe,
+      #3f86ed
+    );
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+  input[type="checkbox"]:checked + label {
+    background-color: #0a0eff; 
+  }
+  label::before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: #ffffff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%; 
+  }
+  
+  input[type="checkbox"]:checked + label::before {
+    background-color: #ffffff;
+  }
+  label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-bottom: -3px;
+    background-color: #fff;
+    border: 2px solid #ccc; 
+    border-radius: 4px; 
+    cursor: pointer;
+  }
+  a{
+    text-decoration: none;
+    color: #2724fa;
+  }
+  .item-4{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.7rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Montserrat;
+}
+.item-5{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    color: rgb(14, 50, 209);
+    font-weight: bold;
+    font-family: Montserrat;
+}
+.item-5 span{
+    color: #1d0ef1;
+    filter: drop-shadow(1px 1px 7px rgb(54, 64, 201));
+
+}
+.icon {
+    /* border: 1px solid red; */
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 1.4rem;
+}
+.icon i{
+    padding: 10px;
+    margin: 0;
+    font-size: 1.2rem;
+ 
+}
+/*--------ball-------*/
+.ball {
+    width: 350px;
+    height: 350px;
+    border: 2px solid rgba(104, 187, 255, 0.973);
+    background: linear-gradient(to right, #dcefff, #007bff);
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    box-shadow: 0 0 30px 0  #4481eb;
+    transition: background-color 0.8s ease-in-out;
+    transform: translate(-50%, -50%);
+    animation: rotate 2s linear infinite, colorChange 5s infinite; /* Áp dụng animation cho quả bóng */
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg); /* Góc ban đầu của quả bóng */
+    }
+    to {
+        transform: rotate(360deg); /* Góc quay đầy đủ (360 độ) */
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0); /* Trạng thái ban đầu và kết thúc */
+    }
+    50% {
+        transform: translateY(-50px); /* Trạng thái giữa, nảy lên */
+    }
+}
+
+
